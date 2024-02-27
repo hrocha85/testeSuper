@@ -1,0 +1,7 @@
+{
+  "name": "testeSuper",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

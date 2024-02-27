@@ -1,0 +1,60 @@
+/* Ionic Variables and Theming. For more info, please see:
+http://ionicframework.com/docs/theming/ */
+
+/** Ionic CSS Variables **/
+:root {
+ 
+  font-family: 'Poppins;';
+}
+
+@media (prefers-color-scheme: dark) {
+  /*
+   * Dark Colors
+   * -------------------------------------------
+   */
+
+  body {
+
+    font-family: 'Poppins;';
+  
+  }
+
+  /*
+   * iOS Dark Theme
+   * -------------------------------------------
+   */
+
+  .ios body {
+    font-family: 'Poppins;';
+  }
+
+  .ios ion-modal {
+
+  font-family: 'Poppins;';
+    
+  }
+
+
+  /*
+   * Material Design Dark Theme
+   * -------------------------------------------
+   */
+
+  .md body {
+
+  font-family: 'Poppins;';
+  }
+}
+
+html {
+  font-family: 'Poppins;';
+  --ion-dynamic-font: var(--ion-default-dynamic-font);
+  flex: 1;
+  background-color: #F2F2F2;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
